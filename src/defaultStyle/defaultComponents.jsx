@@ -60,7 +60,7 @@ export const List = styled.div`
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 2rem;
+  margin: 1rem;
 `;
 
 export const Wrapper = styled.div`

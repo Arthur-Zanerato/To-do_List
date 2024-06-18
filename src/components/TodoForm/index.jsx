@@ -13,9 +13,10 @@ function TodoForm({ addTodo }) {
     setCategory("");
   };
   return (
-    <List>
+    <List style={{margin: "2rem 0"}}>
       <SubTitle>Criar Tarefa</SubTitle>
       <Form onSubmit={handleSubmit}>
+        <div>
         <input
           value={value}
           type="text"
@@ -29,6 +30,7 @@ function TodoForm({ addTodo }) {
           <option value="Pessoal">Pessoal</option>
           <option value="Estudos">Estudos</option>
         </select>
+        </div>
         <div>
         <Button type="submit">Criar Tarefa</Button>
         </div>

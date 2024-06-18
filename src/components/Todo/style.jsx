@@ -14,8 +14,8 @@ export const Content = styled.div`
   color: ${({ theme }) => theme.colors.black};
   font-family: ${({ theme }) => theme.fontFamily.title};
   font-size: ${({ theme }) => theme.size.n};
-  padding: ${({ theme }) => theme.size.n};
-  margin: ${({ theme }) => theme.size.s};
+  padding: ${({ theme }) => theme.size.s};
+  margin: ${({ theme }) => theme.size.s} 0;
   border-radius: ${({ theme }) => theme.size.s};
   background-color: ${({ theme }) => theme.colors.lightOrange};
   div{
