@@ -48,7 +48,7 @@ export const Button = styled.button`
   transition: ease-in-out 0.3s;
   border-radius: 0.5rem;
   margin: ${({ theme }) => theme.size.xs};
-  padding: 10px;
+  padding: 12px;
   border: none;
   &:hover {
     transition: ease-in-out 0.3s;
